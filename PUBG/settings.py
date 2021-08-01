@@ -22,7 +22,7 @@ STATIC_DIR2 = os.path.join(BASE_DIR,'static')
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '#u(u+r-gkjp&6dq%#$ud(o@=x2+1t=&9p7-s=t^38709!fgtx-'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -30,10 +30,10 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'contact.rewardroom@gmail.com'
-EMAIL_HOST_PASSWORD = 'PrinceGoyal49'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS = True
-EMAIL_PORT = 587
+
 # Application definition
 
 INSTALLED_APPS = [
