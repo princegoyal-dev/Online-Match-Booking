@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{% load static %}
+
+{% block link %}
+<link rel="stylesheet" href="{% static 'css/contactus.css' %}">
+{% endblock %}
+
+{% block body %}
+<div style="height:auto; width: 100%; position: relative;  background-color:transparent; ">
+<div style="margin-top:100px">
+  <div class="container">
+    <div class="jumbotron" style=" background-color:rgba(0,0,0,0.3); color:white;" >
+      <center>
+      <h1>Thanks for you Time</h1>
+      <br>
+      <h1>Our Team Will respond to you With in 24hrs</h1>
+      <br>
+      <a class="btn btn-primary" href="/">Click here to go to Home Page</a>
+      </center>
+    </div>
+  </div>
+</div>
+</div>
+{% endblock %}

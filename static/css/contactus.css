@@ -1,0 +1,17 @@
+body{
+  background: url('../media/3.jpg');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+input{
+letter-spacing: 3px;
+font-family: 'calibri(body)';
+ text-align: center;
+   border-bottom: 2px solid #ff3131;
+   border-left: 0.8px solid #194360;
+   border-right: 0.8px solid #194360;
+   border-top: 0px;
+    transition: all 2s;
+   outline: 0;
+}

@@ -1,0 +1,12 @@
+
+img {
+    max-width: 100vw;
+    height:auto;
+    width:auto;
+    max-height:100vh;
+}
+body{
+  background: url('../media/4.jpg');
+  background-repeat:repeat;
+  background-size: cover;
+}

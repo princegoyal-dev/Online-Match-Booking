@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+{% load static %}
+
+{% block link %}
+<link rel="stylesheet" href="{% static 'css/paymenthistory.css' %}">
+{% endblock %}
+
+{% block body %}
+<div style="height:auto; width: 100%; position: relative;  background-color:transparent; ">
+<div style="margin-top:100px">
+  <div class="container">
+    <div class="jumbotron" style=" background-color:rgba(0,0,0,1); color:white;" >
+      <table style="width:100%; text-align:center; font-size:auto;" border="1" >
+      {% for row in extra %}
+      <tr>
+        <th>ORDER ID</th>
+        <th>ORDER DATE</th>
+        <th>IN GAME NAME</th>
+        <th>PAYTM NO</th>
+      </tr>
+      <tr>
+        <td >{{row.order_id}}</td>
+        <td>{{row.date}}</td>
+        <td>{{row.in_game_name}}</td>
+        <td>{{row.phone_number}}</td>
+      </tr>
+    </table>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+</div>
+{% endblock %}
